@@ -57,20 +57,6 @@ if (File.Exists(path))
 
     if (movies is not null)
     {
-
-        //var i = movies.FindAll((x) => x.Genres.Where((x) => x == Genres.SciFi)));
-
-        //foreach (var movie in movies)
-        //{
-        //    var i = movie.Genres.Where((x) => x.Equals(Genres.SciFi));
-        //    Console.WriteLine(i);
-        //}
-
-        //foreach (var movie in i)
-        //{
-        //    Console.WriteLine("SciFi film!");
-        //}
-
         //Där movies har en genre där genre är scifi
         var sciFiMovies = movies.Where(m => m.Genres.Any(g => g == Genres.SciFi));
 
@@ -79,14 +65,5 @@ if (File.Exists(path))
             Console.WriteLine(sciFiMovie.Title);
         }
 
-        //foreach (var movie in movies)
-        //{
-        //    //scifiMovies = movie.Genres.Where(x => x == Genres.SciFi);
-
-        //    if (movie.Genres.Any(g=> g == Genres.SciFi))
-        //    {
-        //        Console.WriteLine(movie.Title);
-        //    }
-        //}
     }
 }
