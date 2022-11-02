@@ -9,6 +9,7 @@ var movieDb = new MovieCollection();
 
 var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), $"Demo.json");
 
+// var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), @"QuizQuestionsLab-3\QuizQuestions.json");
 
 //var path2 = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"Demo.json");
 
@@ -74,16 +75,6 @@ if (File.Exists(path))
 //    //    Console.WriteLine(movie.Title);
 //    //}
 //}
-
-
-
-
-
-
-
-
-
-
 
 
 
