@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonUppgift 1", "JsonUppgif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonUppgift 2", "JsonUppgift 2\JsonUppgift 2.csproj", "{6BFD5D40-0C51-43F3-B6A0-59D8BB9B82B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonUppgift 3", "JsonUppgift 3\JsonUppgift 3.csproj", "{617D96BF-EAEB-4E12-BE82-4F22AD784B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonUppgift 3", "JsonUppgift 3\JsonUppgift 3.csproj", "{617D96BF-EAEB-4E12-BE82-4F22AD784B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{52579200-9C3D-48FA-ABD3-10C6EBA55D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{617D96BF-EAEB-4E12-BE82-4F22AD784B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{617D96BF-EAEB-4E12-BE82-4F22AD784B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617D96BF-EAEB-4E12-BE82-4F22AD784B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52579200-9C3D-48FA-ABD3-10C6EBA55D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52579200-9C3D-48FA-ABD3-10C6EBA55D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52579200-9C3D-48FA-ABD3-10C6EBA55D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52579200-9C3D-48FA-ABD3-10C6EBA55D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
